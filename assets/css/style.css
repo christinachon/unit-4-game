@@ -2,28 +2,3 @@ body{
     background-image: url('../images/background-image.png');
     
 }
-
-h1{
-    text-align: center;
-}
-
-.score{
-    width: 30%;
-    border: 2px solid black;
-    display: inline-block;
-    height: 150px;
-}
-
-.target{
-    width: 30%;
-    border: 2px solid black;
-    display: inline-block;
-    height: 150px;
-}
-
-.counter{
-    width: 30%;
-    border: 2px solid black;
-    display: inline-block;
-    height: 150px;
-}
