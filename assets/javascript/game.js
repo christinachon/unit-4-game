@@ -14,9 +14,9 @@ function newGame(){
 // MAIN GAME PART
 newGame();
 
-$(".gold").click(function(){
-    goldValue = Math.floor(Math.random()*12)+1
-    myScore += goldValue;
+$(".mush").click(function(){
+    mushValue = Math.floor(Math.random()*12)+1
+    myScore += mushValue;
     $("h3.score").html(myScore);
     if (myScore > targetScore){
         losses++;
@@ -27,43 +27,3 @@ $(".gold").click(function(){
         $("div.wins").html(wins);
     };
 });
-$(".green").click(function(){
-    greenValue = Math.floor(Math.random()*12)+1
-    myScore += greenValue;
-    $("h3.score").html(myScore);
-    if (myScore > targetScore){
-        losses++;
-        $("div.losses").html(losses);
-        newGame();
-    } else if(myScore === targetScore){
-        wins++;
-        $("div.wins").html(wins);
-    };
-});
-$(".poison").click(function(){
-    poisonValue = Math.floor(Math.random()*12)+1
-    myScore += poisonValue;
-    $("h3.score").html(myScore);
-    if (myScore > targetScore){
-        losses++;
-        $("div.losses").html(losses);
-        newGame();
-    } else if(myScore === targetScore){
-        wins++;
-        $("div.wins").html(wins);
-    };
-});
-$(".red").click(function(){
-    redValue = Math.floor(Math.random()*12)+1
-    myScore += redValue;
-    $("h3.score").html(myScore);
-    if (myScore > targetScore){
-        losses++;
-        $("div.losses").html(losses);
-        newGame();
-    } else if(myScore === targetScore){
-        wins++;
-        $("div.wins").html(wins);
-    };
-});
-
