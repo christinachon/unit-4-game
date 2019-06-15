@@ -11,25 +11,25 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <link rel ="stylesheet" href="assets/css/style.css">
-    <title>Coin Collecting</title>
+    <title>Magic Mushies</title>
 </head>
 <body> <div class="container">
 
     <div class="jumbotron">
-        <h1 class="text-center display-4">Coin Collector</h1><br>
+        <h1 class="text-center display-4">Magic Mushies</h1><br>
         <p class="lead">Each of the mushrooms has a secret value. Click on them to see your score go up! Can you get your score to match the target? If it goes over, then you lose! A new game will automatically restart after a win or loss. How many wins can you get?</p>
 
     </div> <div class ="row">
-    <img class="col-3 gold" src="assets/images/gold-mush.png" alt="gold mushroom">
-    <img class="col-3 green" src="assets/images/green-mush.png" alt="green mushroom">
-    <img class="col-3 poison" src="assets/images/poison-mush.png" alt="poison mushroom">
-    <img class="col-3 red" src="assets/images/red-mush.png" alt="red mushroom">
+    <img class="col-3 gold mush" src="assets/images/gold-mush.png" alt="gold mushroom">
+    <img class="col-3 green mush" src="assets/images/green-mush.png" alt="green mushroom">
+    <img class="col-3 poison mush" src="assets/images/poison-mush.png" alt="poison mushroom">
+    <img class="col-3 red mush" src="assets/images/red-mush.png" alt="red mushroom">
     </div><br>
     <div class ="row">
     <div class="col-4 score"><h2 class="bg-info text-white text-center rounded p-1">Your Score</h2> <h3 class="score text-center">0</h3></div>
     <div class="col-4 target"><h2 class="bg-info text-white text-center rounded p-1">Your Target</h2><h3 class="targetscore text-center"></h3></div>
     <div class="col-4 counter"><h2 class="bg-info text-white text-center rounded p-1">Counter</h2>
-             <h3 class="text-center">Wins:<span id="wins text-center"> <br> </span>Losses:<span id="losses text-center"> </span></h3></div>
+             <h3 class="text-center">Wins:<div class="wins text-center"></div> <br> Losses:<div class="losses text-center"> </div></h3></div>
 
 </div>
 
