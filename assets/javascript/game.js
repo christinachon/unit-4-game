@@ -33,10 +33,12 @@ $(".mush").click(function(){
     if (myScore > targetScore){
         losses++;
         $("div.losses").html(losses);
+        $("h2.gameovermessage").text("You lost!")
         newGame();
     } else if(myScore === targetScore){
         wins++;
         $("div.wins").html(wins);
+        $("h2.gameovermessage").text("You won!")
         newGame();
     };
 });
