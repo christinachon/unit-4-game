@@ -23,7 +23,8 @@ function newGame(){
     $('.redmush').attr('value', redmush);
     $('.poisonmush').attr('value', poisonmush);
     $('.goldmush').attr('value', goldmush);
-}
+};
+
 // MAIN GAME PART
 newGame();
 
